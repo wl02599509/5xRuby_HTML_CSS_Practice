@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            background-color: rgb(57, 53, 53);
+        }
+
+        h1{
+            margin: 15px;
+            color: white;
+        }
+
+        .group{
+            width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        div{
+            width: 370px;
+        }
+
+        figure{
+            margin:15px;
+            height: 320px;
+            background-color: aliceblue;
+
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .time{
+            width: 75px;
+            border: 1px solid gray;
+            padding: 5px;
+            margin-bottom: 30px;
+            margin: 15px;
+            background-color: aliceblue;
+            color: gray;
+            font-size: 12px;
+            
+        }
+        .teacher{
+            padding: 5px;
+            margin: 15px;
+            background-color: aliceblue;
+            color: gray;
+            font-size: 18px;
+            display: inline;
+        }
+        .課程階級1{
+            display: inline;
+            background-color: aliceblue;
+            color: rgb(0, 132, 255);
+            font-size: 12px;
+        }
+        .課程階級2{
+            display: inline;
+            background-color: aliceblue;
+            color: rgb(255, 0, 43);
+            font-size: 12px;
+        }
+        .課程階級3{
+            display: inline;
+            background-color: aliceblue;
+            color: rgb(4, 255, 0);
+            font-size: 12px;
+        }
+
+
+        a{
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px;
+            border-left: 10px solid red;
+            border-right: 10px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>近期課程</h1>
+    <div class="group">
+        <div> 
+            <figure>
+                <img src="https://images.ctfassets.net/8er52l3j5u76/3C48UXfAVWsW0wDCXGIGrp/c35f449c4073b8e994db5df43e9e2679/TailwindCSS-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                <figcaption class="time">2022 / 7月班</figcaption>
+                <figcaption class="teacher">講師：廖柏均 (綠奶茶)</figcaption>
+                <figcaption class="課程階級1"> 初階課程</figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+                <img src="https://images.ctfassets.net/8er52l3j5u76/7hQENHYP6BTrxy0NXvAoa1/432d4b7909985333c81f3253bc876ada/React-js-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                <figcaption class="time">2022 / 7月班</figcaption>
+                <figcaption class="teacher">講師：廖柏均 (綠奶茶)</figcaption>
+                <figcaption class="課程階級2"> 進階課程</figcaption>
+             </figure>
+        </div>
+        
+        <div>
+            <figure>
+                <img src="https://images.ctfassets.net/8er52l3j5u76/1T7JT8vJIhUwa5ZDnUsHtC/7b11ff7b31dae270ce7bf8805bc7face/Code-for-girl-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                <figcaption class="time">2022 / 7月班</figcaption>
+                <figcaption class="teacher">講師：李建杭 (Amos Lee)</figcaption>
+                <figcaption class="課程階級3"> 入門課程</figcaption>
+            </figure>
+        </div>
+        <div>
+            <a href="#">看更多課程</a>
+        </div>
+    </div>
+
+        <!-- <a href="#">看更多課程</a> -->
+
+  
+</body>
+</html>
