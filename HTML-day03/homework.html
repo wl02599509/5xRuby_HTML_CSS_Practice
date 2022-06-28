@@ -12,10 +12,14 @@
         *{
             margin: 0px;
         }
+        .section{
+            width: 100%;
+            background-color: rgb(53, 50, 71);
+            justify-content: center;
+        }
         .outside{
             width: 1200px;
             margin: 0px;
-            background-color: rgb(53, 50, 71);
         }
         h1{
             color: white;
@@ -100,40 +104,42 @@
     </style>
 </head>
 <body>
-    <div class="outside">
-        <h1>近期課程</h1>
-        <div class="group">
-            <div> 
-                <figure>
-                    <a href="https://5xruby.tw/courses/tailwindcss" class="課程區塊">
-                        <img src="https://images.ctfassets.net/8er52l3j5u76/3C48UXfAVWsW0wDCXGIGrp/c35f449c4073b8e994db5df43e9e2679/TailwindCSS-Banner-600x315.jpg?fm=webp&q=80" alt="">
-                        <figcaption class="time">2022 / 7月班</figcaption>
-                        <figcaption class="teacher">講師：廖柏均 (綠奶茶)<span class="課程階級1"> 初階課程 </span></figcaption>
-                    </a>
-                </figure>
+    <section class="section">
+        <div class="outside">
+            <h1>近期課程</h1>
+            <div class="group">
+                <div> 
+                    <figure>
+                        <a href="https://5xruby.tw/courses/tailwindcss" class="課程區塊">
+                            <img src="https://images.ctfassets.net/8er52l3j5u76/3C48UXfAVWsW0wDCXGIGrp/c35f449c4073b8e994db5df43e9e2679/TailwindCSS-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                            <figcaption class="time">2022 / 7月班</figcaption>
+                            <figcaption class="teacher">講師：廖柏均 (綠奶茶)<span class="課程階級1"> 初階課程 </span></figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <a href="https://5xruby.tw/courses/react" class="課程區塊">
+                            <img src="https://images.ctfassets.net/8er52l3j5u76/7hQENHYP6BTrxy0NXvAoa1/432d4b7909985333c81f3253bc876ada/React-js-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                            <figcaption class="time">2022 / 7月班</figcaption>
+                            <figcaption class="teacher">講師：廖柏均 (綠奶茶)<span class="課程階級2"> 進階課程 </span></figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <a href="https://5xruby.tw/courses/code-for-girl" class="課程區塊">
+                            <img src="https://images.ctfassets.net/8er52l3j5u76/1T7JT8vJIhUwa5ZDnUsHtC/7b11ff7b31dae270ce7bf8805bc7face/Code-for-girl-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                            <figcaption class="time">2022 / 7月班</figcaption>
+                            <figcaption class="teacher">講師：李建杭 (Amos Lee)<span class="課程階級3"> 入門課程 </span></figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="連結">
+                    <a href="https://5xruby.tw/courses" class="課程超連結">看更多課程</a>
+                </div>
             </div>
-            <div>
-                <figure>
-                    <a href="https://5xruby.tw/courses/react" class="課程區塊">
-                        <img src="https://images.ctfassets.net/8er52l3j5u76/7hQENHYP6BTrxy0NXvAoa1/432d4b7909985333c81f3253bc876ada/React-js-Banner-600x315.jpg?fm=webp&q=80" alt="">
-                        <figcaption class="time">2022 / 7月班</figcaption>
-                        <figcaption class="teacher">講師：廖柏均 (綠奶茶)<span class="課程階級2"> 進階課程 </span></figcaption>
-                    </a>
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <a href="https://5xruby.tw/courses/code-for-girl" class="課程區塊">
-                        <img src="https://images.ctfassets.net/8er52l3j5u76/1T7JT8vJIhUwa5ZDnUsHtC/7b11ff7b31dae270ce7bf8805bc7face/Code-for-girl-Banner-600x315.jpg?fm=webp&q=80" alt="">
-                        <figcaption class="time">2022 / 7月班</figcaption>
-                        <figcaption class="teacher">講師：李建杭 (Amos Lee)<span class="課程階級3"> 入門課程 </span></figcaption>
-                    </a>
-                </figure>
-            </div>
-            <div class="連結">
-                <a href="https://5xruby.tw/courses" class="課程超連結">看更多課程</a>
-            </div>
-        </div>
-    </div>  
+        </div>  
+    </section>
 </body>
 </html>

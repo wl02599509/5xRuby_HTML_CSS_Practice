@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .course{
+            background-color: #aaa;
+            padding: 100px 0px;
+        }
+        .course .title{
+            font-size: 32px;
+            width: 1200px;
+            /* border: 1px solid #000; */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .course .item-list{
+            width: 1200px;
+            /* border: 1px solid #000; */
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .course .item-list .item{
+            width: 370px;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            /* overflow: hidden; */
+        }
+        .course .item-list .item img{
+            width: 100%;
+            /* border-top-left-radius: 10px;
+            border-top-right-radius: 10px; */
+            border-radius: 10px 10px 0px 0px;
+        }
+        .course .item-list .item .date{
+            border: 1px solid #f00;
+            /* width: fit-content; */
+            display: inline-block;
+            padding: 3px 6px;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        .course .item-list .item .group{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #f00;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .course .more{
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            /* border: 1px solid #000; */
+        }
+        .course .more a{
+            background-color: #f00;
+            color: #fff;
+            padding: 10px 20px;
+            display: block;
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="course">
+
+        <h1 class="title">近期課程</h1>
+        
+        <div class="item-list">
+            <div class="item">
+                <img src="https://fakeimg.pl/300x200/200">
+                <div class="date">2022/10</div>
+                <div class="group">
+                    <div class="teacher">AMOS</div>
+                    <div class="icon">
+                        新手課
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://fakeimg.pl/300x200/200">
+                <div class="date">2022/10</div>
+                <div class="group">
+                    <div class="teacher">AMOS</div>
+                    <div class="icon">
+                        新手課
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://fakeimg.pl/300x200/200">
+                <div class="date">2022/10</div>
+                <div class="group">
+                    <div class="teacher">AMOS</div>
+                    <div class="icon">
+                        新手課
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="more">
+            <a href="#">more</a>
+        </div>
+
+    </section>
+
+</body>
+</html>
