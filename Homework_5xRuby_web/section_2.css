@@ -1,0 +1,89 @@
+.section_2{
+    width: 100%;
+    background-color: rgba(249,250,251);
+}
+.team_describe{
+    padding-top: 20px;
+    width: 1200px;
+    margin: auto;
+}
+.team{
+    margin: 0px;
+}
+.team_txt{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.teacher_group{
+    width: 1200px;
+    background-color: rgba(249,250,251);;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 40px;
+}
+.teachers{
+    background-color: white;
+    width: 585px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+#amos{
+    margin-right: 15px;
+}
+#eddie{
+    margin-left: 15px;
+}
+#kuro{
+    margin-right: 15px;
+}
+#milkmidi{
+    margin-left: 15px;
+}
+.teachers .self_information{
+    display: flex;
+}
+.teachers .self_information .pic{
+    width: 25%;
+    padding: 20px;
+}
+.teachers .self_information .pic img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.teachers .self_information .name_media{
+    background-color: white;
+}
+.name_media img{
+    width: 25px;
+}
+.name_media a{
+    text-decoration: none;
+}
+.name_media .teacher_name{
+    font-weight: 900;
+    font-size: 22px;
+}
+.introduction{
+    border-top: 1px solid rgb(180, 180, 180);
+    width: 530px;
+    margin: auto;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.introduction a{
+    text-decoration: none;
+    color: red;
+}
+.other_course a{
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    padding: 5px 10px;
+    border: 1px solid red;  
+    border-radius: 3px;
+    margin: 30px 20px;
+    font-size: 14px;
+    }
