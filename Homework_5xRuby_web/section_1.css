@@ -49,4 +49,6 @@
 }
 .triangle img{
     width: 100%;
+    display: block;  
+    /* 移除圖片底下多出來的空白 */
 }
