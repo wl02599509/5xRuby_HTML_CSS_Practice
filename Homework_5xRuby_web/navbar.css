@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo{
+    display: inline;
+    margin-top: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.navbar .logo img{
+    width: 5%;
+}
+.navbar .logo h1{
+    display: inline;
+    font-size: 20px;
+}
+.menu{
+    display: inline-block;
+}
+.menu a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
