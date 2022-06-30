@@ -3,7 +3,6 @@
     position: fixed;
     top: 0px;
     background-color: white;
-    padding-bottom: 20px;
 }
 .container{
     width: 1200px;
@@ -18,6 +17,9 @@
 .logo a{
     text-decoration: none;
     color: black;
+}
+.logo a:hover{
+    color:red;
 }
 .navbar .logo img{
     width: 5%;
@@ -36,4 +38,9 @@
     display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
+    padding-bottom: 20px;
+}
+.menu a:hover{
+    color: red;
+    border-bottom: 2px solid red;
 }
