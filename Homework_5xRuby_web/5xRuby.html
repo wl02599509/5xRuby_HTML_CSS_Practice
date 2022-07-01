@@ -11,12 +11,39 @@
     <link rel="stylesheet" href="section_2.css">
     <link rel="stylesheet" href="section_3.css">
     <style>
-    
+        .section_4{
+            background-color: rgba(41,48,62);
+            width: 100%;
+            margin: auto;
+        }
+        .group_4{
+            width: 1200px;
+            display: flex;
+        }
+        .short_course{
+            width: 500px;
+            margin-left: 100px;
+            background-color: rgba(41,48,62);
+        }
+        .short_course h1{
+            color: white;
+        }
+        .short_course p{
+            color: gray;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .frontend_course{
+            width: 500px;
+            background-color: #ff133e;
+        }
+        .frontend_course img{
+            width: 100%;
+            display: block;
+        }
     </style>
 </head>
 <body>
-    
-</body>
     <div class="navbar">
         <div class="container">
             <div class="logo">
@@ -274,4 +301,27 @@
         </div>
         <img src="black_triangle.png">
     </section>
+    <section class="section_4">
+        <div class="group_4">
+            <div class="short_course">
+                <h1>短期實體課程</h1>
+                <hr width="100px" color="red" 1px>
+                <p>目標清晰的短期課程，針對單一技術所開設。適合在職進修的工程師、PM，或對網頁設計有興趣的你。</p>
+            </div>
+            <div class="frontend_course">
+                <div>
+                    <img src="red_triangle.png">
+                </div>
+                <div class="frontend">
+                    <h1>前端課程</h1>
+                    <p>除了基礎的 HTML、CSS、JavaScript，還包含 React、Vue 兩大前端框架。讓五倍講師帶你入門，打好網頁前端基礎！</p>
+                    <a href="https://5xruby.tw/courses#frontend">前往課程  ></a>
+                </div>
+                <div>
+                    <img src="red_triangle_2.png">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
