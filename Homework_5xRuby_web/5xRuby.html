@@ -12,7 +12,93 @@
     <link rel="stylesheet" href="section_3.css">
     <link rel="stylesheet" href="section_4.css">
     <style>
-        
+    .section_5{
+        background-color: rgba(41,48,62);
+    }
+    .group_5{
+        width: 1200px;
+        margin: auto;
+        background-color: rgba(41,48,62);
+        padding-top: 20px;
+    }
+    .group_5 .title{
+        color: #fff;
+        margin-left: 15px;
+    }
+    .teacher_columns{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .teacher_columns a{
+        text-decoration: none;
+        display: block;
+    }
+    .teacher_columns .teacher{
+        width: 370px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .course_information{
+        text-decoration: none;
+        display: block;
+    }
+    .teacher_columns .teacher img{
+        width: 100%;
+    }
+    .date{
+        width: 75px;
+        border: 1px solid gray;
+        padding: 5px;
+        margin-bottom: 30px;
+        margin: 15px;
+        color: gray;
+        font-size: 12px;
+    }
+    .teacher{
+        padding-bottom: 15px;
+        margin: 15px;
+        background-color: aliceblue;
+        color: gray;
+        font-size: 18px;
+    }
+    .course_1{
+        background-color: aliceblue;
+        color: rgb(0, 132, 255);
+        font-size: 12px;
+        margin-left: 95px;
+    }
+    .course_2{
+        background-color: aliceblue;
+        color: rgb(255, 0, 43);
+        font-size: 12px;
+        margin-left: 95px;
+    }
+    .course_3{
+        background-color: aliceblue;
+        color: rgb(4, 255, 0);
+        font-size: 12px;
+        margin-left: 75px;
+    }
+    .more_courses{
+        margin: 15px;
+        padding: 10px;
+        border-left: 10px solid red;
+        border-right: 10px solid red;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        background-color: red
+    }
+    .txt{
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
 
     </style>
 </head>
@@ -21,7 +107,7 @@
         <div class="container">
             <div class="logo">
                 <a href="https://5xruby.tw/">
-                    <img src="logo.svg" alt="">
+                    <img src="/pictures/logo.svg" alt="">
                     <h1>五倍紅寶石 ・專業程式教育機構</h1>
                 </a>
             </div>
@@ -40,7 +126,7 @@
                 <div class="course_discount">
                     <div class="pic">
                         <a href="https://5xruby.tw/news/quintuple-stimulus-vouchers">
-                            <img src="discount.webp" alt="">
+                            <img src="/pictures/discount.webp" alt="">
                         </a>
                     </div>
                     <div class="course_discount_txt">
@@ -54,7 +140,7 @@
                         <div class="pic">
                             <img src="https://62baa5b3caa1e037e40014e4--5xtraining.netlify.app/_next/static/images/learning-b43250f8722dbdec96b71e68f7159eea.webp" alt="">
                         </div>
-                        <div class="txt">
+                        <div class="text">
                             <span class="topic">鍛鍊實力，主導學習</span>
                             <span>搭配最新技術版本，掌握業界脈動，與需求緊密結合，鍛鍊程式實力。</span>
                         </div>
@@ -63,7 +149,7 @@
                         <div class="pic">
                             <img src="https://62baa5b3caa1e037e40014e4--5xtraining.netlify.app/_next/static/images/plan-5cae8f0de3c2bb067ceac89b37cd77fe.webp" alt="">
                         </div>
-                        <div class="txt">
+                        <div class="text">
                             <span class="topic">完整規劃，絕不漏接</span>
                             <span>線上補課、線下討論與社群活動，確保學員擁有充份且多元的學習資源和支持系統。</span>
                         </div>
@@ -72,7 +158,7 @@
                         <div class="pic">
                             <img src="https://62baa5b3caa1e037e40014e4--5xtraining.netlify.app/_next/static/images/challenge-9b575a1b310622e2b8141dfd1288d051.webp" alt="">
                         </div>
-                        <div class="txt">
+                        <div class="text">
                             <span class="topic">挑戰困境，突破職涯</span>
                             <span>無論新手跨領域轉職，或在職工程師深度進修，讓五倍為你解構學習，突破困境。</span>
                         </div>
@@ -81,7 +167,7 @@
             </div>
         </div>
         <div class="triangle">
-            <img src="triangle.png">
+            <img src="/pictures/triangle.png">
         </div>
     </section>
     <section class="section_2">
@@ -272,7 +358,7 @@
                 <a href="https://5xruby.tw/press">更多報導</a>
             </div>
         </div>
-        <img src="black_triangle.png">
+        <img src="/pictures/black_triangle.png">
     </section>
     <section class="section_4">
         <div class="group_4">
@@ -283,7 +369,7 @@
             </div>
             <div class="frontend_course">
                 <div>
-                    <img src="red_triangle.png">
+                    <img src="./pictures/red_triangle.png">
                 </div>
                 <div class="frontend">
                     <h1>前端課程</h1>
@@ -291,10 +377,41 @@
                     <a href="https://5xruby.tw/courses#frontend">前往課程  ></a>
                 </div>
                 <div>
-                    <img src="red_triangle_2.png">
+                    <img src="/pictures/red_triangle_2.png">
                 </div>
             </div>
         </div>
+    </section>
+    <section class="section_5">
+        <div class="group_5">
+            <h1 class="title">近期課程</h1>
+            <div class="teacher_columns">
+                <div class="teacher"> 
+                    <a href="https://5xruby.tw/courses/tailwindcss" class="course_information">
+                        <img src="https://images.ctfassets.net/8er52l3j5u76/3C48UXfAVWsW0wDCXGIGrp/c35f449c4073b8e994db5df43e9e2679/TailwindCSS-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                        <h2 class="date">2022 / 7月班</h2>
+                        <h2 class="teacher">講師：廖柏均 (綠奶茶)<span class="course_1"> 初階課程 </span></h2>
+                    </a>
+                </div>
+                <div class="teacher">
+                    <a href="https://5xruby.tw/courses/react" class="course_information">
+                        <img src="https://images.ctfassets.net/8er52l3j5u76/7hQENHYP6BTrxy0NXvAoa1/432d4b7909985333c81f3253bc876ada/React-js-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                        <h2 class="date">2022 / 7月班</h2>
+                        <h2 class="teacher">講師：廖柏均 (綠奶茶)<span class="course_2"> 進階課程 </span></h2>
+                    </a>
+                </div>
+                <div class="teacher">
+                    <a href="https://5xruby.tw/courses/code-for-girl" class="course_information">
+                        <img src="https://images.ctfassets.net/8er52l3j5u76/1T7JT8vJIhUwa5ZDnUsHtC/7b11ff7b31dae270ce7bf8805bc7face/Code-for-girl-Banner-600x315.jpg?fm=webp&q=80" alt="">
+                        <h2 class="date">2022 / 7月班</h2>
+                        <h2 class="teacher">講師：李建杭 (Amos Lee)<span class="course_3"> 入門課程 </span></h2>
+                    </a>
+                </div>
+                <div class="more_courses">
+                    <a href="https://5xruby.tw/courses" class="txt">看更多課程</a>
+                </div>
+            </div>
+        </div>  
     </section>
 </body>
 </html>

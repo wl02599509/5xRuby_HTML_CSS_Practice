@@ -37,10 +37,10 @@
     width: 60%;
     margin: auto;
 }
-.describe .txt{
+.practice_plan_task .describe .text{
     text-align: center;
 }
-.describe .txt span{
+.describe .text span{
     display: inline-block;
     margin: 10px;
 }
