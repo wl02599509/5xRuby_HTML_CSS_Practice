@@ -36,7 +36,7 @@
 .teacher_columns .teacher img{
     width: 100%;
 }
-.date{
+.teacher .date{
     width: 75px;
     border: 1px solid gray;
     border-radius: 5px;

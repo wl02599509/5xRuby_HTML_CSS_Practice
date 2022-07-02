@@ -28,8 +28,8 @@
 .news .title a:hover{
     color: red;
 }
-.news span{
-    font-size: 13px;
+.news .date{
+    font-size: 15px;
     font-weight: 500;
     color: rgb(147, 146, 146);
 }
