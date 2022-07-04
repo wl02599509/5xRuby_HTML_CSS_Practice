@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: antiquewhite;
+            font-size: 30px;
+        }
+
+        p::before{
+            content: 'before';
+            color: rgb(73, 147, 122);
+        }
+
+        p::after{
+            content: 'after';
+            color: rgb(42, 110, 110);
+        }
+
+
+        div{
+            width: 0px;
+            height: 0px;
+            /* border-top: 100px solid green; */
+
+            border-right: 100px solid rgb(67, 155, 164);
+
+            border-bottom: 100px solid transparent;
+
+            border-left: 100px solid transparent;
+        }
+
+    </style>
+</head>
+<body>
+    <p>資料</p>
+
+
+    <div></div>
+</body>
+</html>
