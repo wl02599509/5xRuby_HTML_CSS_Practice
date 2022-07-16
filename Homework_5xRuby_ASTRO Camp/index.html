@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="grid.css">
+    <style>
+        .section {
+            width: 100%;
+            margin: auto;
+        }
+        .content {
+            width: 100%;
+            margin: auto;
+        }
+        .title {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .title h1 span{
+            font-size: 60px;
+            display: inline-block;
+            margin: 0 10px;
+            color: #E51F58;
+            text-shadow: 0 2px 1px  #b1125b;
+        }
+        .title span {
+            font-size: 25px;
+        }
+        .instruction {
+            max-width: auto;
+            margin: auto;
+        }
+        .instruction-wrap:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        .instruction-wrap {
+        }
+        .instruction-wrap-pic {
+            padding: 0px;
+            overflow: visible;
+        }
+        .instruction-wrap-pic img {
+            vertical-align: bottom;
+            position: relative;
+            width: 100%;
+            z-index: 3;
+        }
+        .stripe-background {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100%;
+            height: 100%;
+            z-index: 1; 
+            background:#FFF;
+            background:
+            linear-gradient(-45deg, red 25%, white 0,white 50%,red 0%,red 75%,white 0);
+            background-size:15px 15px;
+        }
+        #stripe-purple {
+            background:#FFF;
+            background:
+            linear-gradient(-45deg, purple 25%, white 0,white 50%,purple 0%,purple 75%,white 0);
+            background-size:15px 15px;
+        }
+        .brown-background {
+            background-color: brown;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        .purple-background {
+            background-color: purple;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        .instruction-wrap-sentence {
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+        .instruction-wrap-sentence .step {
+            font-size: 45px;
+        }
+        #uniq {
+            color: #E51F58;
+        }
+        #senior {
+            color: #B1125B;
+        }
+        #opportunity {
+            color: #7D2062;
+        }
+        #flexible {
+            color: #4a4a4a;
+        }
+        #ask {
+            color: #E51F58;
+        }
+        .instruction-wrap-sentence span {
+            line-height: 1.5;
+        }
+        .background-father {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="content container">
+            <div class="title">
+                <h1><span>5</span>大裝備讓你<span>3</span>個月立即上工</h1>
+                <span>清晰理論教學打通任督二脈，獨家專案實作紮穩職場馬步</span>
+            </div>
+            <div class="instruction">
+                <div class="instruction-wrap row">
+                    <div class="instruction-wrap-pic col-12 col-md-6">
+                        <div class="background-father">
+                            <img src="first.webp">
+                            <div class="stripe-background" id="strip-red"></div>
+                        </div>
+                    </div>
+                    <div class="instruction-wrap-sentence col-12 col-md-6">
+                        <div class="step" id="uniq">01</div>
+                        <h1>獨家專案教學法</h1>
+                        <span>由 20 年程式開發及 10 年以上教學經驗的高見龍領軍，以貼近業界實務的方式教學，並採用日本知名 Ruby 公司的標準來訓練你的程式邏輯，讓完全沒接觸過程式的你，在課程上完後，能有屬於自己的作品，而且還能快速融入業界工程師的實務工作！</span>
+                    </div>
+                </div>
+                <div class="instruction-wrap row">
+                    <div class="instruction-wrap-pic col-12 col-md-6">
+                        <div class="background-father">
+                            <img src="https://astro.5xruby.tw/images/photos/img_feature_2-3e53f8ac.webp">
+                            <div class="brown-background"></div>                           
+                        </div>
+                    </div>
+                    <div class="instruction-wrap-sentence col-12 col-md-6">
+                        <div class="step" id="senior">02</div>
+                        <h1>業界資深助教群</h1>
+                        <span>有別於坊間用業務顧問或大學生助教的幌子，我們使用業界資深的助教群，於產業深耕至少 10 年以上。你要走的路，他們都曾經走過，讓你在上課期間碰到的任何問題，都能獲得最即時、最專業的解答！</span>
+                    </div>
+                </div>
+                <div class="instruction-wrap row">
+                    <div class="instruction-wrap-pic col-12 col-md-6">
+                        <div class="background-father">
+                            <img src="https://astro.5xruby.tw/images/photos/img_feature_3-d9c559d7.webp">
+                            <div class="stripe-background" id="stripe-purple"></div>
+                        </div>
+                    </div>
+                    <div class="instruction-wrap-sentence col-12 col-md-6">
+                        <div class="step" id="opportunity">03</div>
+                        <h1>保證 3 次面試機會
+                        </h1>
+                        <span>只要完成評分項目，保證至少媒合 3 次面試！找工作所需的履歷撰寫以及面試技巧，都會有專人輔導、協助你用最快的時間，學以致用！</span>
+                    </div>
+                </div>
+                <div class="instruction-wrap row">
+                    <div class="instruction-wrap-pic col-12 col-md-6">
+                        <div class="background-father">
+                            <img src="https://astro.5xruby.tw/images/photos/img_feature_4-1eeff701.webp">
+                            <div class="purple-background"></div>
+                        </div>
+                    </div>
+                    <div class="instruction-wrap-sentence col-12 col-md-6">
+                        <div class="step" id="flexible">04</div>
+                        <h1>彈性的補課制度</h1>
+                        <span>每堂課皆全程錄影，讓你臨時有事也不怕，更可以反覆練習加深記憶。</span>
+                    </div>
+                </div>
+                <div class="instruction-wrap row">
+                    <div class="instruction-wrap-pic col-12 col-md-6">
+                        <div class="background-father">
+                            <img src="https://astro.5xruby.tw/images/photos/img_feature_5-ef10b137.webp">
+                            <div class="stripe-background"></div>
+                        </div>
+                    </div>
+                    <div class="instruction-wrap-sentence col-12 col-md-6">
+                        <div class="step" id="ask">05</div>
+                        <h1>只要你有心，絕對讓你問到會、問到飽</h1>
+                        <span>Astro 聚集眾多「非本科系」的學員，我們深知在學習程式的初期，你可能會有大量的疑問，所以幫你準備好了實戰助教群，讓你線上線下都可即時解惑。還有還有，由於我們教室隔壁就坐著一群工程師，逮到他們也都可以問問題。這些，都是為了保證讓你在學習程式時，能夠全速前進！</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
